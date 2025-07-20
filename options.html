@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Opções</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h2>Configurações</h2>
+
+		<div class="section">
+			<h3>Importar Senhas</h3>
+			<p>Selecione um arquivo para importar suas senhas:</p>
+			<label for="import-file">Arquivo (JSON ou TXT):</label>
+			<input type="file" id="import-file" accept=".json,.txt" />
+			<button id="import-btn" disabled>Importar Senhas</button>
+			<div id="import-status"></div>
+			<div class="import-help">
+				<details>
+					<summary>Formatos suportados</summary>
+					<div class="format-info">
+						<p><strong>Formato JSON:</strong></p>
+						<pre>
+[{"site": "exemplo.com", "user": "usuario", "pass": "senha"}]</pre
+						>
+						<p><strong>Formato de texto estruturado:</strong></p>
+						<pre>
+Website name: Nome do Site
+Website URL: https://exemplo.com
+Login: usuario
+Password: senha
+---</pre
+						>
+					</div>
+				</details>
+			</div>
+		</div>
+
+		<div class="section">
+			<h3>Exportar Senhas</h3>
+			<p>Baixe suas senhas em formato JSON:</p>
+			<button id="export-btn">Exportar Senhas</button>
+		</div>
+
+		<div class="section">
+			<h3>Gerenciar Senhas</h3>
+			<p>Visualize e gerencie suas senhas salvas:</p>
+			<div id="password-manager">
+				<div id="password-list"></div>
+			</div>
+		</div>
+
+		<script src="options.js"></script>
+	</body>
+</html>

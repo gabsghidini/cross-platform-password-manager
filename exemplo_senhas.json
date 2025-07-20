@@ -1,0 +1,17 @@
+[
+  {
+    "site": "github.com",
+    "user": "usuario@email.com",
+    "pass": "minhasenhasegura123"
+  },
+  {
+    "site": "google.com",
+    "user": "meuemail@gmail.com",
+    "pass": "outrasenha456"
+  },
+  {
+    "site": "stackoverflow.com",
+    "user": "desenvolvedor",
+    "pass": "senhaDoStack789"
+  }
+]

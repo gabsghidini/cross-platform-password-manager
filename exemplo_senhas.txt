@@ -1,0 +1,35 @@
+Website name: Ava Faculdadeimes
+Website URL: https://ava.faculdadeimes.org.br
+Login name: 
+Login: aluno@faculdade.edu.br
+Password: minhasenha123
+Comment: 
+
+---
+
+Website name: openeducation.blackboard.com
+Website URL: https://openeducation.blackboard.com/mooc-catalog/courseDetails/view
+Login name: 
+Login: estudante@email.com
+Password: senhaestudante456
+Comment: 
+
+---
+
+Website name: GitHub
+Website URL: https://github.com
+Login name: 
+Login: desenvolvedor
+Password: github_password789
+Comment: Conta para projetos
+
+---
+
+Website name: Google Drive
+Website URL: https://drive.google.com
+Login name: 
+Login: meu.email@gmail.com
+Password: drive_pass321
+Comment: Armazenamento na nuvem
+
+---

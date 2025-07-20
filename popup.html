@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Senhas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Minhas Senhas</h1>
+  <label for="search-bar" style="display:block;font-weight:bold;margin-bottom:2px;">Buscar senhas:</label>
+  <input type="text" id="search-bar" placeholder="Buscar..." style="width:100%;margin-bottom:10px;padding:6px 8px;border-radius:3px;border:1px solid #ccc;font-size:1em;" />
+  <div id="password-list"></div>
+  <button id="add-password">Adicionar Senha</button>
+
+  <div class="section" style="margin-top:16px;">
+    <h3 style="margin:0 0 8px 0; font-size:1em;">Importar Senhas</h3>
+    <label for="popup-import-file" style="display:block; font-weight:bold; margin-bottom:4px;">Arquivo (JSON ou TXT):</label>
+    <input type="file" id="popup-import-file" accept=".json,.txt" />
+    <button id="popup-import-btn" disabled style="margin-left:8px;">Importar</button>
+    <div id="popup-import-status" style="margin-top:8px; font-size:0.95em;"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
